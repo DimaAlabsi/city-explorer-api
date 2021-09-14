@@ -39,3 +39,19 @@ Start time: 2:00 pm
 Finish time: 7:00pm
 
 Actual time needed to complete: 5 hours
+
+
+----------------------------------
+
+
+Name of feature: weather and movie data in response to City Explorer searches
+
+Estimate of time needed to complete: 5 hours
+
+Start time: 5:00 pm
+
+Finish time:  I don't finish this lab till now
+
+Actual time needed to complete: more than 5 hours
+
+

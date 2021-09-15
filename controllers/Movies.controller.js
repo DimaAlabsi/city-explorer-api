@@ -13,7 +13,9 @@ let moviesInformation =async (req, res) => {
         i.release_date,
         i.vote_average,
         i.vote_count,
-        
+        i.poster_path
+
+
       );
     });
               res.status(200).json(moviesData)

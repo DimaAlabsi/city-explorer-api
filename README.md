@@ -54,4 +54,15 @@ Finish time:  I don't finish this lab till now
 
 Actual time needed to complete: more than 5 hours
 
+-------------------------------------------
+
+Name of feature: Modularizing JavaScript files on the back-end allows us to re-use functions and makes our code more readable. Clean up your back-end codebase by modularizing your server.js.
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 5:30 pm
+
+Finish time: 6 :00 pm
+
+Actual time needed to complete: 30 minutes
 

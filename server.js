@@ -23,6 +23,19 @@ class Forecast {
     (this.date = date), (this.description = description);
   }
 }
+
+
+class Movie {
+  constructor(title, overview,date,voteAvg,votCount,data) {
+   this.title=title,
+   this.overview=overview,
+    this.voteAvg = voteAvg,
+    this.votCount=votCount,
+    this.date = date,
+    this.img=''
+
+  }
+}
 // ----------lab7:------------
 
 // app.get("/weather", (req, res) => {
@@ -78,29 +91,37 @@ let handleWeather= async (req,res)=>{
 
   res.status(200).json(weatherDetails);
 
-}
-}
+}}
+
 app.get('/weather',handleWeather)
 
 
 // ----------movies----------
 
 app.get("/movies", async (req, res) => {
-  let city_name = req.query.city.toLowerCase();
-  const movies= await axios.get(`https://api.themoviedb.org/3/movie/157336?api_key=${process.env.MOVIE_API_KEY}&city=${city_name}`)
+  let city_name = req.query.query.toLowerCase();
+  // ttps://api.themoviedb.org/3/movie/{movie_id}?api_key=<<api_key>>&language=en-US
+
+  let movies= await axios.get(`https://api.themoviedb.org/3/search/movie?api_key=${process.env.MOVIE_API_KEY}&query=${city_name}`)
+  // https://api.themoviedb.org/3/search/movie?api_key=<<api_key>>
   // https://api.themoviedb.org/3/movie/157336?api_key=
   // movies
-  let moviesData = movies_name.production_companies.map((i) => {
-    return new Forecast(
-      i.movies.production_companies,
-      i.genres.name,
-      i.valid_date,
+  // console.log(movies.data)
+  let moviesData = movies.data.results.map((i) => {
+    return new Movie(
+      i.title,
       i.overview,
+      i.vote_average,
+      i.vote_count,
+i.release_date,
+i.backdrop_path
     );
   });
   res.status(200).json(moviesData)
    
 }  )
+
+// DataTransferItemList,overview,
   
 
 

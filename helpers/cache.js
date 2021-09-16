@@ -4,8 +4,7 @@ class Cache{
   constructor () {
     this.weather=[];
     this.movies=[];
-    this.date=Date.now();
+    this.date=new Date();
   }
  }
-
- module.exports=Cache;
+module.exports=Cache;

@@ -2,8 +2,9 @@
 
 # Project Name
 
-**Author**: Your Name Goes Here
-**Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
+**Author**: Dima Alabsi
+**Version**: 4.0.0 
+
 
 ## Overview
 begin building  custom API server, which will provide data for the City Explorer front-end application. This means users will get to see not only the map, but also interesting information about the area, provided by a variety of third-party APIs that your server will manage.
@@ -14,14 +15,19 @@ javascript,
 cors
 express
 node.js
-
+axios
+Class Cache
 ## Change Log
 
 
 13-9-2021 2:00 pm
+14-9-2021 2:00pm
+15-9-2021 3:00 pm
+## Credit and Collaborations:
 
-## Credit and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+**Essam Omar**
+
+https://city-explorer-essam.netlify.app/
 
 ---------------------------------------------
 

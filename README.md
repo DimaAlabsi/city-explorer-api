@@ -3,7 +3,7 @@
 # Project Name
 
 **Author**: Dima Alabsi
-**Version**: 4.0.0 
+**Version**: 5.0.0 
 
 
 ## Overview
@@ -23,6 +23,7 @@ Class Cache
 13-9-2021 2:00 pm
 14-9-2021 2:00pm
 15-9-2021 3:00 pm
+18-9-2021 5:00pm
 ## Credit and Collaborations:
 
 **Essam Omar**
@@ -72,3 +73,16 @@ Finish time: 6 :00 pm
 
 Actual time needed to complete: 30 minutes
 
+-------------------------------------------
+
+Name of feature: Cache external API data in server storage:
+
+
+
+Estimate of time needed to complete: 2-3 hours
+
+Start time: 3:00pm
+
+Finish time: 5:15 pm
+
+Actual time needed to complete: 2 hours and 15 minutes

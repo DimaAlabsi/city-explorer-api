@@ -1,8 +1,15 @@
 "use strict";
-class Forecast {
-  constructor(date, description) {
-    (this.date = date), (this.description = description);
+
+class Weather {
+  constructor(day) {
+    this.forecast = day.weather.description;
+    this.time = day.datetime;
   }
 }
 
-module.exports=Forecast;
+// class Forecast {
+//   constructor(date, description) {
+//     (this.date = date), (this.description = description);
+//   }
+// }
+module.exports = Weather;

@@ -1,10 +1,14 @@
-"use strict" ;
+// "use strict" ;
 
-class Cache{
-  constructor () {
-    this.weather=[];
-    this.movies=[];
-    this.date=new Date();
-  }
- }
-module.exports=Cache;
+// class Cache{
+//   constructor () {
+//     this.data=[];
+//     // this.movies=[];
+//     this.date=new Date();
+//   }
+//  }
+// module.exports=Cache;
+
+'use strict';
+
+module.exports = { };
